@@ -1,0 +1,15 @@
+#wrap {
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	margin: 100px 0;
+	left: 0;
+	transition: 1s;
+	border: 1px solid red;
+}
+/*#wrap:hover {
+	left: 100%;
+	margin-left: -400px;
+	transform:rotate(90deg);
+	background-color: red;
+}*/

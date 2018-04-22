@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*" />
+	<title>Steam</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+	function steam() {
+		$.ajax({
+		    type: "GET",
+		    url: "http://39.105.41.32/steam",
+		    dataType: "json",
+		    success: function(reply){
+		    	console.log(reply.body);
+		    	console.log('Success!')
+		    }
+	    })
+	}
+	steam();
+</script>
+</html>
